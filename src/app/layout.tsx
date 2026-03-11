@@ -9,7 +9,7 @@ import { Footer } from "@/component/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "NEXUS | Build the Future of Social Commerce",
+  title: "Rudratek | Build the Future of Social Commerce",
   description: "Join a world-class team building high-availability infrastructure.",
 };
 
@@ -24,9 +24,6 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
-        
-  
-      
       </body>
     </html>
   );

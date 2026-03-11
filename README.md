@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# RUDRATEK | Social Commerce Infrastructure
 
-## Getting Started
+A high-performance, responsive landing page built with **Next.js 15**, **Tailwind CSS v4**, and **Framer Motion**. This project showcases a modern recruitment portal and infrastructure showcase for Rudratek Systems.
 
-First, run the development server:
+## 🚀 Tech Stack
+
+* **Framework:** [Next.js 15 (App Router)](https://nextjs.org/)
+* **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (Oxide Engine)
+* **Animations:** [Framer Motion](https://www.framer.com/motion/)
+* **Icons:** [Lucide React](https://lucide.dev/)
+* **Type Safety:** TypeScript
+
+## ✨ Key Features
+
+* **High-End Glassmorphism:** Custom utility-based glass effects with improved saturation and backdrop filters.
+* **Responsive Architecture:** Fully adaptive UI scaling from mobile-first toggles to 4K ultra-wide monitor optimizations.
+* **Dynamic Job Board:** Client-side filtering system for open opportunities with smooth layout transitions.
+* **Performance First:** Optimized font rendering, smooth-scroll anchors, and staggered entrance animations for better Core Web Vitals.
+* **Global Layout:** Persistent navigation and footer architecture for seamless route transitions.
+
+
+## 🏁 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone  origin https://github.com/kelechi-okpani/Rudratek-Job-Board.git
+cd rudratek-landing
+
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+pnpm install
+
+```
+
+### 3. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000] (https://www.google.com/search?q=http://localhost:3000) to view the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Background Glows
 
-## Learn More
+To adjust the global "Spotlight" effect, modify the `radial-gradient` in `src/app/globals.css`.
 
-To learn more about Next.js, take a look at the following resources:
+### Theming
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Tailwind v4 variables are managed in the `@theme` block within `globals.css`. You can update brand colors like `--color-brand-blue` to match your corporate identity instantly.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---

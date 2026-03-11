@@ -9,12 +9,11 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        // Custom dark slate palette for high-end feel
         brand: {
           dark: "#020617",
           card: "rgba(255, 255, 255, 0.03)",
-          accent: "#3b82f6", // Blue
-          success: "#10b981", // Emerald
+          accent: "#3b82f6", 
+          success: "#10b981", 
         },
       },
       backgroundImage: {
